@@ -1,2 +1,2 @@
-# INF6_IA
-Internet Applications Classes term 5 Poznan University of Technology
+# Internet Applications Classes term 6 Poznan University of Technology
+* Basic HTML
