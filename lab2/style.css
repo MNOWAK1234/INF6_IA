@@ -81,10 +81,21 @@ body {
     font-family: Arial, sans-serif;
 }
 
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     padding: 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex: 1 0 auto;
 }
 
 .container main {
@@ -127,6 +138,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 footer p:nth-of-type(2) {
