@@ -26,11 +26,24 @@ async function crawlWebsite() {
         .text()
         .trim()
         .split("\n");
-      const area = parseFloat(
+      let area = 0;
+      let rooms = "Brak danych";
+      let floor = "Brak danych";
+
+      if (params.length >= 1) {
+        area = parseFloat(
+          params[0].trim().replace(",", ".").replace(" m²", "")
+        );
+        if (params.length >= 3) {
+          rooms = parseInt(params[1].trim()) || "Brak danych";
+          floor = params[2].trim() || "Brak danych";
+        }
+      }
+      /*const area = parseFloat(
         params[0].trim().replace(",", ".").replace(" m²", "")
       );
       const rooms = parseInt(params[1].trim());
-      const floor = params[2].trim();
+      const floor = params[2].trim();*/
 
       const priceElement = $(element).find(".teaserUnified__price");
       const price = parseInt(
