@@ -1,0 +1,161 @@
+2024-04-29 10:49:31 error: [Cake\Http\Exception\MissingControllerException] Controller class Books could not be found. in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Books',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Books',
+)
+Stack Trace:
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:75
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cake\webroot\index.php:40
+- [main]:
+
+Request URL: /books
+2024-04-29 10:52:28 error: [Cake\View\Exception\MissingTemplateException] Template file `Books\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\cake\templates\Books\index.php`
+- `C:\xampp\htdocs\cake\vendor\cakephp\cakephp\templates\Books\index.php`
+ in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Books\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\cake\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\cake\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:807
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:790
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:569
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:325
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cake\webroot\index.php:40
+- [main]:
+
+Request URL: /books/index
+2024-04-29 11:35:23 error: [Cake\Http\Exception\MissingControllerException] Controller class Users could not be found. in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Users',
+)
+Stack Trace:
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:75
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cake\webroot\index.php:40
+- [main]:
+
+Request URL: /users
+2024-04-29 11:35:32 error: [Cake\Http\Exception\MissingControllerException] Controller class Users could not be found. in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Users',
+)
+Stack Trace:
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:75
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cake\webroot\index.php:40
+- [main]:
+
+Request URL: /Users
+2024-04-29 11:35:35 error: [Cake\Http\Exception\MissingControllerException] Controller class Users could not be found. in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Users',
+)
+Stack Trace:
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:75
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:176
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:189
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:99
+- C:\xampp\htdocs\cake\webroot\index.php:40
+- [main]:
+
+Request URL: /Users

@@ -1,0 +1,70 @@
+2024-04-29 11:31:24 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] Nie można nawiązać połączenia, ponieważ komputer docelowy aktywnie go odmawia in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Driver.php on line 144
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] Nie można nawiązać połączenia, ponieważ komputer docelowy aktywnie go odmawia',
+)
+Stack Trace:
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:165
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:217
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php:542
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cake\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] Nie można nawiązać połączenia, ponieważ komputer docelowy aktywnie go odmawia in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Driver.php:142
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:165
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:217
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php:542
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cake\bin\cake.php:12
+- [main]:
+
+2024-04-29 11:32:27 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakephp.g_r_o_u_p_s' doesn't exist in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 160
+Stack Trace:
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php:528
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cake\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakephp.g_r_o_u_p_s' doesn't exist in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php:414
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php:409
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:158
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php:528
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\cake\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\cake\bin\cake.php:12
+- [main]:
+

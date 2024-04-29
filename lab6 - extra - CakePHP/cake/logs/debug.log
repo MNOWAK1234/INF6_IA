@@ -1,0 +1,810 @@
+2024-04-29 10:25:41 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cake\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cake\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cake\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cake\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 166
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 10:25:57 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cake\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cake\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cake\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cake\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 10:26:03 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cake\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cake\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cake\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cake\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 10:52:27 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/index
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 10
+App\Controller\BooksController->index() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 10:54:30 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 10
+App\Controller\BooksController->index() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 10:56:54 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 10
+App\Controller\BooksController->index() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 10:57:04 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 10
+App\Controller\BooksController->index() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 10:57:12 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 10
+App\Controller\BooksController->index() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:02:25 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:02:27 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/add
+Referer URL: http://localhost/cake/books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:02:33 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:04:09 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/add
+Referer URL: http://localhost/cake/books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:04:19 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:06:31 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:06:33 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/add
+Referer URL: http://localhost/cake/books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:06:39 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/add
+Referer URL: http://localhost/cake/books/add
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:06:39 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books
+Referer URL: http://localhost/cake/books/add
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:06:44 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/delete/4
+Referer URL: http://localhost/cake/books
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:06:44 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books
+Referer URL: http://localhost/cake/books
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:31:56 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /books/
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php, line 55
+Cake\Controller\Component\PaginatorComponent->__construct() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php, line 133
+Cake\Controller\ComponentRegistry->_create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 317
+Cake\Controller\Controller->loadComponent() C:\xampp\htdocs\cake\src\Controller\BooksController.php, line 11
+App\Controller\BooksController->initialize() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 242
+Cake\Controller\Controller->__construct() [internal], line ??
+ReflectionClass->newInstance() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 88
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 166
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:34:32 notice: If you cannot use automatic connection management, use $connection->getDriver()->connect() instead.
+C:\xampp\htdocs\cake\templates\Pages\home.php, line: 30
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Pages/home.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Database\Connection.php, line 322
+Cake\Database\Connection->connect() C:\xampp\htdocs\cake\templates\Pages\home.php, line 30
+Cake\View\View->{closure}() C:\xampp\htdocs\cake\templates\Pages\home.php, line 167
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 1222
+Cake\View\View->_evaluate() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php, line 810
+Cake\View\View->render() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 790
+Cake\Controller\Controller->render() C:\xampp\htdocs\cake\src\Controller\PagesController.php, line 65
+App\Controller\PagesController->display() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:36:13 notice: Passing query options as paginator settings is deprecated. Use a custom finder through `finder` config instead. Extra keys found are: contain
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line: 189
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Datasource/Paging/NumericPaginator.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /Users
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line 267
+Cake\Datasource\Paging\NumericPaginator->extractData() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line 189
+Cake\Datasource\Paging\NumericPaginator->paginate() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 992
+Cake\Controller\Controller->paginate() C:\xampp\htdocs\cake\src\Controller\UsersController.php, line 24
+App\Controller\UsersController->index() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:36:24 notice: Passing query options as paginator settings is deprecated. Use a custom finder through `finder` config instead. Extra keys found are: contain
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line: 189
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Datasource/Paging/NumericPaginator.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /users
+Referer URL: http://localhost/cake/users/add
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line 267
+Cake\Datasource\Paging\NumericPaginator->extractData() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line 189
+Cake\Datasource\Paging\NumericPaginator->paginate() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 992
+Cake\Controller\Controller->paginate() C:\xampp\htdocs\cake\src\Controller\UsersController.php, line 24
+App\Controller\UsersController->index() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
+2024-04-29 11:36:34 notice: Passing query options as paginator settings is deprecated. Use a custom finder through `finder` config instead. Extra keys found are: contain
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line: 189
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Datasource/Paging/NumericPaginator.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /users
+Referer URL: http://localhost/cake/users/add
+Trace:
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line 267
+Cake\Datasource\Paging\NumericPaginator->extractData() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line 189
+Cake\Datasource\Paging\NumericPaginator->paginate() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 992
+Cake\Controller\Controller->paginate() C:\xampp\htdocs\cake\src\Controller\UsersController.php, line 24
+App\Controller\UsersController->index() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php, line 560
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php, line 99
+Cake\Http\Server->run() C:\xampp\htdocs\cake\webroot\index.php, line 40
+[main]
+
